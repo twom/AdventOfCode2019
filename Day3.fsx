@@ -39,7 +39,7 @@ let result1 = intersect
                 |> List.min
 
 let result2 = intersect
-                |> Set.map (fun coord -> coordinateMapA.IndexOf(coord) + coordinateMapB.IndexOf(coord))
+                |> Set.map (fun coord -> coordinateMapA.IndexOf(coord) + coordinateMapB.IndexOf(coord) + 2 )
                 |> Set.toList
                 |> List.min
 

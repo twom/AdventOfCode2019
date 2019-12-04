@@ -43,7 +43,7 @@ let findNounAndVerb targetValue initialState =
     let winner = combinations
                     |> Seq.find (fun x-> x.[0] = targetValue)
 
-    printf "noun: %A, verb: %A" winner.[1] winner.[2]
+    printf "result: %A%A" winner.[1] winner.[2]
 
 
 findNounAndVerb 19690720 intCode
