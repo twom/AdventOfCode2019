@@ -4,7 +4,7 @@ open System.Collections.Generic
 
 
 
-let intCode: int list = File.ReadAllText("./Day2_input.txt").Split ","
+let intCode: int list = File.ReadAllText("./Day2_input.txt").Split ','
                         |> Array.map int
                         |> Array.toList
 
